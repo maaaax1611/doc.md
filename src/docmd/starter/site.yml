@@ -1,0 +1,23 @@
+# Settings for the whole site. Everything except `title` is optional.
+title: My docs
+lang: en                      # en or de: language of the texts the generator writes itself
+eyebrow: Guides · Reference   # small line above the title on the start page
+lede: Notes with live figures. Every figure is also available on its own for embedding.
+footer: All figures compute in the browser.
+home_label: Home              # text of the link back to the start page
+
+# Topic areas on the start page. A page belongs to the category named like its folder under pages/.
+categories:
+  - id: guide
+    title: Guide
+    desc: How to write pages and figures.
+
+# Pages that do not exist yet; they appear greyed out on the start page.
+planned:
+  - category: guide
+    title: Your next page
+    desc: Add a Markdown file under pages/guide/ and it shows up here.
+    tags: [todo]
+
+# widgets_section: false     # hide the "Figures to embed" list on the start page
+# labels: { fig: "Figure" }  # override single generated texts
